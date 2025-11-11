@@ -120,7 +120,7 @@ body {
     color: #667eea;
 }
 
-/* Estilo do Card - Prog */
+/* Estilo do Card - Programação */
 .card-prog{
     background-color: #fff;
     border-radius: 10px;
@@ -217,23 +217,8 @@ body {
     color: #66eaa1;
 }
 
-/* Responsividade */
-@media (max-width: 768px) {
-    .container h1 {
-        font-size: 2em;
-    }
-    
-    .card-header h2 {
-        font-size: 1.5em;
-    }
-    
-    .tecnologias li {
-        display: block;
-        margin: 5px 0;
-    }
-}
 
-/* Estilo do Card - sd*/
+/* Estilo do Card - sistemas digitais*/
 .card-sd{
     background-color: #fff;
     border-radius: 10px;
@@ -250,7 +235,7 @@ body {
 
 /* Header do Card */
 .card-headersd {
-    background: linear-gradient(135deg, rgb(214, 75, 145) 0%, #be1a9b 100%);
+    background: linear-gradient(135deg, rgb(156, 116, 136) 0%, #e7c0df 100%);
     color: white;
     padding: 20px;
     text-align: center;
@@ -293,13 +278,13 @@ body {
     background-color: #f0f0f0;
     padding: 8px 12px;
     margin-bottom: 8px;
-    border-left: 4px solid rgb(214, 75, 145);
+    border-left: 4px solid rgb(156, 116, 136);
     border-radius: 4px;
 }
 
 .tecnologiassd li {
     display: inline-block;
-    background-color:  rgb(214, 75, 145);
+    background-color: rgb(156, 116, 136);
     color: white;
     padding: 6px 15px;
     margin: 5px;
@@ -327,5 +312,21 @@ body {
 }
 
 .card-footersd strong {
-    color:  rgb(214, 75, 145);
+    color: rgb(156, 116, 136);
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .container h1 {
+        font-size: 2em;
+    }
+    
+    .card-header h2 {
+        font-size: 1.5em;
+    }
+    
+    .tecnologias li {
+        display: block;
+        margin: 5px 0;
+    }
 }
