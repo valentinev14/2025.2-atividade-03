@@ -1,0 +1,331 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+    font-size: 2.5em;
+}
+
+/* Estilo do Card - web */
+.card-web{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-web:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Header do Card */
+.card-headerw {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.card-headerw h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.card-headerw .professores {
+    font-size: 1.1em;
+    font-style: italic;
+    opacity: 0.9;
+}
+
+/* Conteúdo do Card */
+.cardweb-content {
+    padding: 25px;
+}
+
+.cardweb-content h3 {
+    color: #667eea;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 1.3em;
+}
+
+.cardweb-content p {
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.cardweb-content ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.cardweb-content ul li {
+    background-color: #f0f0f0;
+    padding: 8px 12px;
+    margin-bottom: 8px;
+    border-left: 4px solid #667eea;
+    border-radius: 4px;
+}
+
+.tecnologias-web li {
+    display: inline-block;
+    background-color: #667eea;
+    color: white;
+    padding: 6px 15px;
+    margin: 5px;
+    border-radius: 20px;
+    border-left: none;
+    font-size: 0.9em;
+}
+
+/* Rodapé do Card */
+.card-footer {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-top: 2px solid #e0e0e0;
+}
+
+.card-footer h3 {
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.card-footer p {
+    color: #666;
+    margin-bottom: 8px;
+}
+
+.card-footer strong {
+    color: #667eea;
+}
+
+/* Estilo do Card - Prog */
+.card-prog{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-prog:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Header do Card */
+.card-headerp {
+    background: linear-gradient(135deg, #66eaa1 0%, #208135 100%);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.card-headerp h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.card-headerp .professoresp {
+    font-size: 1.1em;
+    font-style: italic;
+    opacity: 0.9;
+}
+
+/* Conteúdo do Card */
+.card-contentp {
+    padding: 25px;
+}
+
+.card-contentp h3 {
+    color: #66eaa1;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 1.3em;
+}
+
+.card-contentp p {
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.card-contentp ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.card-contentp ul li {
+    background-color: #f0f0f0;
+    padding: 8px 12px;
+    margin-bottom: 8px;
+    border-left: 4px solid #66eaa1;
+    border-radius: 4px;
+}
+
+.tecnologiasp li {
+    display: inline-block;
+    background-color: #66eaa1;
+    color: white;
+    padding: 6px 15px;
+    margin: 5px;
+    border-radius: 20px;
+    border-left: none;
+    font-size: 0.9em;
+}
+
+/* Rodapé do Card */
+.card-footerp {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-top: 2px solid #e0e0e0;
+}
+
+.card-footerp h3 {
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.card-footerp p {
+    color: #666;
+    margin-bottom: 8px;
+}
+
+.card-footerp strong {
+    color: #66eaa1;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .container h1 {
+        font-size: 2em;
+    }
+    
+    .card-header h2 {
+        font-size: 1.5em;
+    }
+    
+    .tecnologias li {
+        display: block;
+        margin: 5px 0;
+    }
+}
+
+/* Estilo do Card - sd*/
+.card-sd{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-sd:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Header do Card */
+.card-headersd {
+    background: linear-gradient(135deg, rgb(214, 75, 145) 0%, #be1a9b 100%);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.card-headersd h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.card-headersd .professoressd {
+    font-size: 1.1em;
+    font-style: italic;
+    opacity: 0.9;
+}
+
+/* Conteúdo do Card */
+.card-contentsd {
+    padding: 25px;
+}
+
+.card-contentsd h3 {
+    color: rgb(214, 75, 145);
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 1.3em;
+}
+
+.card-contentsd p {
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.card-contentsd ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.card-contentsd ul li {
+    background-color: #f0f0f0;
+    padding: 8px 12px;
+    margin-bottom: 8px;
+    border-left: 4px solid rgb(214, 75, 145);
+    border-radius: 4px;
+}
+
+.tecnologiassd li {
+    display: inline-block;
+    background-color:  rgb(214, 75, 145);
+    color: white;
+    padding: 6px 15px;
+    margin: 5px;
+    border-radius: 20px;
+    border-left: none;
+    font-size: 0.9em;
+}
+
+/* Rodapé do Card */
+.card-footersd {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-top: 2px solid #e0e0e0;
+}
+
+.card-footersd h3 {
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.card-footersd p {
+    color: #666;
+    margin-bottom: 8px;
+}
+
+.card-footersd strong {
+    color:  rgb(214, 75, 145);
+}
